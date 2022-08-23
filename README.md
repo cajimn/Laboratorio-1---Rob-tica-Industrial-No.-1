@@ -1,1 +1,1 @@
-# Laboratorio-1---Rob-tica-Industrial-No.-1
+# Laboratorio 1 Robótica industrial
