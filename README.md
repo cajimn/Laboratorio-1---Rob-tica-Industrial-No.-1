@@ -40,6 +40,19 @@ En RobotStudio se importa la pieza del tablero y se ubica en una posición acord
 -------------------------------------------------------------
 > ## Programa en RobotStudio
 
+Para realizar el programa se realizaron los siguientes pasos:
+
+  > - Se coloca el robot IRB 140 con su controlador y se hace invisible.
+  > - Se coloca la herramienta creada que ya está almacenada en la biblioteca en la cabeza del robot.
+  > - Se coloca como geometría el tablero, el cual debe ser un archivo de tipo SAT, este se hace girar respecto a x 30° y respecto a z 45°, además, se mueve a una posición en el cuadrante positivo del plano xy.
+  > - Se crea el WorkObject y se coloca como punto de referencia el plano del tablero en la esquina inferior izquierda, esto se hace con el método de los 3 puntos.
+  > - Se modifica la velocidad a v100 y la tolerancia a z10
+  > - Se crean las trayectorias con rutas automáticas teniendo oprimida la tecla Shift sobre cada letra, para cada trayectoria se coloca como parámetro un valor de 100 como aproximación y partida de la trayectoria.
+  > - Se seleccionan todos los targets creados y se alinea la orientación del punto seleccionando en esta opción la herramienta diseñada y colocada en el robot.
+  > - Se crea el Home con la opción de crear posición de ejes y se guarda como trayectoria.
+  > - Sincronizamos el controlador y modificamos el código de RAPID en el archivo "main" para definir el orden en el que queremos que se ejecuten las trayectorias.
+  > - Guardamos el programa para colocarlo en la USB posteriormente
+     
 --------------------------------------------------------------
 
 
