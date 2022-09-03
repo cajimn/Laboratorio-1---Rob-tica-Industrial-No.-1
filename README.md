@@ -14,8 +14,19 @@
 
 > ## Diseño de la herramienta
 
-El objetivo de este trabajo es mejorar el tetris realizado con solo programación estructurada y añadirle las respectivas clases que este necesite, modificando que ya no sólo se usen tetrominos, sino n-minos y además que no sólo vote cuadros sino otras figuras, de esta manera repasariamos los temas vistos en clase sobre la programación orientada a objetos.
+Para el diseño de la herramiento en Robot estudio se optó por usar los elementos de creación de solidos de esta aplicación, se generó una base cilíndirca con el mismo diámetro del plato y una altura de un centimetro, un cilindro con menor diámetro y  con altura de 10 cm y un cono con una altura de 2 cm como se ve en la imagén a continuación.
 
+![Herramienta](https://user-images.githubusercontent.com/52113892/188249137-9250b171-d017-44f4-8832-530f6c0c9a62.png)
+ 
+Luego de esto, se gener´´o el TCP correspondiente en la punta de la herramienta.
+
+Para la implementación en la vida real, se realizó la impresión 3D de un portaherramientas capaz de acoplarse al plato del robot y que pueda sostener el marcador:
+
+![Portaherramientas](https://user-images.githubusercontent.com/52113892/188249309-d4fd0d2c-51ed-45fa-a4d4-61c64faebfd3.png)
+
+Este tendría implementado unos tornillos M3 en los huecos laterales para que el marcador no se pudiese desplazar en esas direcciones y en la parte del fondo del agujero, un resorte que iría pegado a la base y al marcador que permita un pequeño amoritguamiento del marcador al entrar en contacto con el tablero. El resultado final fue:
+
+![herramientaReal](https://user-images.githubusercontent.com/52113892/188249469-ecbbfa11-b053-4c7c-aae5-30acc4c6a9a0.png)
 
 -------------------------------------------------------------
 > ## Diseño del tablero
