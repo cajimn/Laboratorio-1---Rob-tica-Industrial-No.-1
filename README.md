@@ -78,7 +78,7 @@ Se conecta la USB al FlexPendant y se carga el respectivo programa. Antes de rea
 https://user-images.githubusercontent.com/52113892/188252864-218f0b68-73a4-4b6d-9067-a6aa1ec982d1.mp4
 
 
-Después de definir el Work Object, se corre el programa correspondiente, en donde, primero se desplaza el robot a HOME y luego se desplaza al Work Object para realizar las trayectorias respectivas de las letras, así se puede observar el movimiento de manera exitosa en el siguiente video en x y y postivos:
+Después de definir el Work Object, se corre el programa correspondiente, en donde, primero se desplaza el robot a HOME y luego se desplaza al Work Object para realizar las trayectorias respectivas de las letras, así se puede observar el movimiento de manera exitosa en el siguiente video en x y y postivos, luego de esto el robot se devuelve a home otra vez:
 
 https://user-images.githubusercontent.com/68668422/188003012-f34fde90-97bd-4622-82bc-f2a98e422880.mp4
 
