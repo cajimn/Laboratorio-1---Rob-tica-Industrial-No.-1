@@ -31,7 +31,11 @@ Este tendría implementado unos tornillos M3 en los huecos laterales para que el
 -------------------------------------------------------------
 > ## Diseño del tablero
 
-La base del juego fue el uso de bitwise para crear las figuras y verificar las colisiones, lo cual fue un método que agilizó la funcionalidad del tetris, además, el juego cuenta con un menú donde elegiras tu número de minos y el tipo de figura con el que quieres jugar, el juego contiene unos marcadores con los cuales podrás medir tu habilidad del juego, implementando niveles de acuerdo al puntaje que vayas adquiriendo, el cual qumenta la velocidad de caida del tetromino. Dichos marcadores quedaran guardados en un JSON, esto te permitirá ir mejorando tus puntajes cada vez que juegues. 
+Se diseña la pieza en Inventor que simula el tablero del laboratorio, para esto se creó una pieza de dimensiones 25 x 29 cm, con espesor de 1 cm. Además, se realiza la extrusión de 1 mm de las letras CIJ con esquinas redondeadas, esto para que las aceleraciones no sean tan grandes debido al cambio abrupto de dirección si se tienen esquinas de 90° y más si se tienen valores de definición 'z' muy pequeños. Con las letras se determinan luego en RobotStudio las rutas de las herramienta.
+
+En RobotStudio se importa la pieza del tablero y se ubica en una posición acorde para que el robot pueda realizar el recorrido sin llegar a ninguna singularidad. Se ubica a 30° con respecto al eje x, a una distancia lo más parecida a la ubicación del tablero real en el laboratorio, en x y y positivos. Se define esta pieza como Work Object, definiendo el plano de trabajo por medio de 3 puntos en las esquinas del tablero, como se muestra a continuación.
+
+![Captura](https://user-images.githubusercontent.com/51938754/188250642-cbe27416-ced9-46b4-9262-98f908d1a84d.PNG)
 
 -------------------------------------------------------------
 > ## Programa en RobotStudio
