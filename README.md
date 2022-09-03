@@ -71,11 +71,13 @@ https://user-images.githubusercontent.com/52113892/188251400-23d41d0e-00c9-4046-
 > ## Implementación en LabSIR
 
 
+Se conecta la USB al FlexPendant y se carga el respectivo programa. Antes de realizar el recorrido del robot se debe definir el Work Object de nuevo, de la misma forma que se hizo en RobotStudio: definir el plano con los 3 puntos en el mismo orden que se realizó en el programa, como está descrito en las secciones anteriores.
+
+Después de definir el Work Object, se corre el programa correspondiente, en donde, primero se desplaza el robot a HOME y luego se desplaza al Work Object para realizar las trayectorias respectivas de las letras, así se puede observar el movimiento de manera exitosa en el siguiente video en x y y postivos:
+
 https://user-images.githubusercontent.com/68668422/188003012-f34fde90-97bd-4622-82bc-f2a98e422880.mp4
 
-
-
-
+Así mismo, se desplaza el Work Object a otra posición en x postivo y y negativo, para realizar otra vez la trayectoria en el otro plano. Pero antes de eso toca realizar el acercamiento a los puntos del tablero en el mismo orden para volver a definir el Work Object. Se evidencia un movimiento exitoso igualmente en el siguiente video.
 
 https://user-images.githubusercontent.com/68668422/188003161-35d4e27c-c4d0-4c2c-be0b-8775f0c77d8f.mp4
 
