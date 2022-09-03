@@ -48,12 +48,18 @@ Para realizar el programa se realizaron los siguientes pasos:
   > - Se crea el WorkObject y se coloca como punto de referencia el plano del tablero en la esquina inferior izquierda, esto se hace con el método de los 3 puntos.
   > - Se modifica la velocidad a v100 y la tolerancia a z10
   > - Se crean las trayectorias con rutas automáticas teniendo oprimida la tecla Shift sobre cada letra, para cada trayectoria se coloca como parámetro un valor de 100 como aproximación y partida de la trayectoria.
+  
 ![Trayectorias](https://user-images.githubusercontent.com/52113892/188251412-194e57bc-c648-4e44-a915-232b9243e0f0.png)
+
   > - Se seleccionan todos los targets creados y se alinea la orientación del punto seleccionando en esta opción la herramienta diseñada y colocada en el robot.
   > - Se crea el Home con la opción de crear posición de ejes y se guarda como trayectoria.
+  
 ![RS](https://user-images.githubusercontent.com/52113892/188251415-1aeab55e-7688-42c1-94da-47c25f12dfae.png)
+
   > - Sincronizamos el controlador y modificamos el código de RAPID en el archivo "main" para definir el orden en el que queremos que se ejecuten las trayectorias.
+  
 ![Codigo rapid](https://user-images.githubusercontent.com/52113892/188251414-c7bed7b5-a3e3-4ac4-9164-d7d4081b840d.png)
+
   > - Guardamos el programa para colocarlo en la USB posteriormente
      
 
